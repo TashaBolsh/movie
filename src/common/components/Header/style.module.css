@@ -1,0 +1,44 @@
+.header {
+    background-color: #f3f4f6;
+    width: 100%;
+    height: 100px;
+    color: grey;
+}
+.flexBox{
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 190px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.logo{
+    opacity: 0.8;
+}
+.logo:hover{
+    opacity: 1;
+}
+.navLink{
+    margin: 0 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    transition: border 0.3s ease; /* Плавный переход */
+}
+
+.active{
+    border: 1px solid rgba(0, 123, 255, 0.1);
+    border-radius: 30px;
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.navLink:hover {
+    color: royalblue;
+}

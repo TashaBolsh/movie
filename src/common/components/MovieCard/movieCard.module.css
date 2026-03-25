@@ -1,0 +1,50 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.poster_frame{
+    position: relative;
+    padding-top: 150%;
+    background-color: grey;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.poster_link{
+    position: absolute;
+    inset: 0;
+    display: block;
+    text-decoration: none;
+    margin: 0;
+}
+.poster_link:hover .img{
+    transform: scale(1.05)
+}
+.rating{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    inset: 0;
+    transition: transform 0.2s;
+}
+.card_title_link{
+    text-decoration: none;
+    color: black;
+}
+.card_title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.favorite{
+
+}
