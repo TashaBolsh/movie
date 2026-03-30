@@ -1,0 +1,22 @@
+.movie_section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+}
+.title{
+    margin: 0;
+}
+.flex_box{
+    display: flex;
+    justify-content: space-between;
+}
+.view_button{
+    border-radius: 100%;
+    color: black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 24px;
+}

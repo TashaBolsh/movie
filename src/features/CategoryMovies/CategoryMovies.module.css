@@ -1,0 +1,13 @@
+.flex_container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.category_switch_container{
+
+}
+.category_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}

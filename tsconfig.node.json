@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+<<<<<<< HEAD
     "target": "ES2022",
+=======
+    "target": "ES2023",
+>>>>>>> 6d2cea59e2ed35c58ce92d7be59d857c5aade9f4
     "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
@@ -9,7 +13,11 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+<<<<<<< HEAD
     "isolatedModules": true,
+=======
+    "verbatimModuleSyntax": true,
+>>>>>>> 6d2cea59e2ed35c58ce92d7be59d857c5aade9f4
     "moduleDetection": "force",
     "noEmit": true,
 
@@ -17,6 +25,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+<<<<<<< HEAD
+=======
+    "erasableSyntaxOnly": true,
+>>>>>>> 6d2cea59e2ed35c58ce92d7be59d857c5aade9f4
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
